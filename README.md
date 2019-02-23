@@ -1,4 +1,4 @@
-# ryanwmoore.me
+# RyanWMoore.me
 This is a repository for my first personal website.
 
 The site serves as a portfolio/resume.
