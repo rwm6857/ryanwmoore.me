@@ -210,7 +210,43 @@
 						<h5><b>SKILLS</b></h5>
 					</div>
 					
-					<div class="col-lg-3 centered">
+								<div class="col-lg-3 centered">
+						<canvas id="network" height="130" width="130"></canvas>
+						<p>Network Protocols (TCP/UDP, DHCP, SSH, etc)</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 80,
+										color:"#1abc9c"
+									},
+									{
+										value : 20,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("network").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+<div class="col-lg-3 centered">
+						<canvas id="tools" height="130" width="130"></canvas>
+						<p>Network Tools (Scapy, Wireshark, Packet Tracer, etc</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 90,
+										color:"#1abc9c"
+									},
+									{
+										value : 10,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("tools").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+<div class="col-lg-3 centered">
 						<canvas id="java" height="130" width="130"></canvas>
 						<p>Java</p>
 						<br>
@@ -228,7 +264,7 @@
 								var myDoughnut = new Chart(document.getElementById("java").getContext("2d")).Doughnut(doughnutData);
 						</script>
 					</div>
-					<div class="col-lg-3 centered">
+				<div class="col-lg-3 centered">
 						<canvas id="python" height="130" width="130"></canvas>
 						<p>Python</p>
 						<br>
@@ -248,16 +284,16 @@
 					</div>
 					<div class="col-lg-3 centered">
 						<canvas id="unix" height="130" width="130"></canvas>
-						<p>Unix (macOS, centOS, Ubuntu, Kali)</p>
+						<p>Linux (Ubuntu, CentOS, Kali, Arch)</p>
 						<br>
 						<script>
 							var doughnutData = [
 									{
-										value: 90,
+										value: 95,
 										color:"#1abc9c"
 									},
 									{
-										value : 10,
+										value : 5,
 										color : "#ecf0f1"
 									}
 								];
